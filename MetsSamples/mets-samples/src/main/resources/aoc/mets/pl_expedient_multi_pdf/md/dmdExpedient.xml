@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><voc:expedient xmlns:voc="http://schemas.user.iarxiu.hp.com/2.0/Voc_expedient" xmlns:mets="http://www.loc.gov/METS/">
+	<voc:codi_referencia>nototesav</voc:codi_referencia>
+	<voc:numero_expedient>nototesav</voc:numero_expedient>
+	<voc:codi_classificacio>nototesav</voc:codi_classificacio>
+	<voc:titol_serie_documental>s1</voc:titol_serie_documental>
+	<voc:nivell_descripcio>Unitat documental composta
+	</voc:nivell_descripcio>
+	<voc:titol>nototesav</voc:titol>
+	<voc:data_obertura>2009-05-08T12:07:00</voc:data_obertura>
+	<voc:data_tancament>2023-08-30T14:43:26</voc:data_tancament>
+	<voc:nom_productor>nototesav</voc:nom_productor>
+	<voc:classificacio_seguretat_acces>Accés públic</voc:classificacio_seguretat_acces>
+	<voc:identificador_volum>1</voc:identificador_volum>
+	<voc:nom_volum>nom vol</voc:nom_volum>
+	<voc:descripcio_volum>desc</voc:descripcio_volum>
+	<voc:suport_volum>1</voc:suport_volum>
+</voc:expedient>

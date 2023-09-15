@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.user.iarxiu.hp.com/2.0/Voc_document" targetNamespace="http://schemas.user.iarxiu.hp.com/2.0/Voc_document" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="document" type="documentType"/>
+  <xs:complexType name="documentType">
+    <xs:sequence>
+      <xs:element name="codi_referencia" type="xs:string"/>
+      <xs:element name="codi_classificacio" type="xs:string"/>
+      <xs:element name="titol_serie_documental" type="xs:string"/>
+      <xs:element name="numero_document" type="xs:string" minOccurs="0"/>
+      <xs:element name="titol" type="xs:string"/>
+      <xs:element name="data_creacio" type="xs:dateTime"/>
+      <xs:element name="nivell_descripcio" type="xs:string" default="Unitat documental simple"/>
+      <xs:element name="suport" type="xs:string"/>
+      <xs:element name="nom_productor" type="xs:string" minOccurs="0"/>
+      <xs:element name="unitat_productora" type="xs:string" minOccurs="0"/>
+      <xs:element name="descripcio" type="xs:string" minOccurs="0"/>
+      <xs:element name="descriptors" type="xs:string" minOccurs="0"/>
+      <xs:element name="tipus_document" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Acceptació"/>
+            <xs:enumeration value="Acord d'iniciació"/>
+            <xs:enumeration value="Acord de govern"/>
+            <xs:enumeration value="Acord del Ple"/>
+            <xs:enumeration value="Acord"/>
+            <xs:enumeration value="Acreditació"/>
+            <xs:enumeration value="Acta d'arqueig"/>
+            <xs:enumeration value="Acta d'avaluació"/>
+            <xs:enumeration value="Acta d'infracció"/>
+            <xs:enumeration value="Acta d'inspecció"/>
+            <xs:enumeration value="Acta d'ocupació"/>
+            <xs:enumeration value="Acta de compareixença"/>
+            <xs:enumeration value="Acta de comprovació d'obres"/>
+            <xs:enumeration value="Acta de liquidació"/>
+            <xs:enumeration value="Acta de notarial"/>
+            <xs:enumeration value="Acta de recepció"/>
+            <xs:enumeration value="Acta de replanteig"/>
+            <xs:enumeration value="Acta"/>
+            <xs:enumeration value="Addenda"/>
+            <xs:enumeration value="Advertiment"/>
+            <xs:enumeration value="Albarà"/>
+            <xs:enumeration value="Alta de la incapacitat temporal- ILT"/>
+            <xs:enumeration value="Al·legació"/>
+            <xs:enumeration value="Analítica"/>
+            <xs:enumeration value="Anunci"/>
+            <xs:enumeration value="Atestat"/>
+            <xs:enumeration value="Autoliquidació"/>
+            <xs:enumeration value="Autorització de representació"/>
+            <xs:enumeration value="Autorització"/>
+            <xs:enumeration value="Aval"/>
+            <xs:enumeration value="Avantprojecte de llei"/>
+            <xs:enumeration value="Avís"/>
+            <xs:enumeration value="Baixa per incapacitat temporal- ILT"/>
+            <xs:enumeration value="Balanç"/>
+            <xs:enumeration value="Ban"/>
+            <xs:enumeration value="Bases"/>
+            <xs:enumeration value="Burofax"/>
+            <xs:enumeration value="Calendari"/>
+            <xs:enumeration value="Carta de pagament"/>
+            <xs:enumeration value="Carta de serveis"/>
+            <xs:enumeration value="Carta"/>
+            <xs:enumeration value="Cartilla professional"/>
+            <xs:enumeration value="Catàleg"/>
+            <xs:enumeration value="Certificat d'apoderament"/>
+            <xs:enumeration value="Certificat d'empadronament"/>
+            <xs:enumeration value="Certificat de convivència"/>
+            <xs:enumeration value="Certificat de dades bancàries"/>
+            <xs:enumeration value="Certificat final d'obra"/>
+            <xs:enumeration value="Certificat mèdic"/>
+            <xs:enumeration value="Certificat"/>
+            <xs:enumeration value="Cessament"/>
+            <xs:enumeration value="Circular"/>
+            <xs:enumeration value="Citació"/>
+            <xs:enumeration value="Codicil"/>
+            <xs:enumeration value="Comanda"/>
+            <xs:enumeration value="Compromís"/>
+            <xs:enumeration value="Compte de resultats"/>
+            <xs:enumeration value="Comunicat previ"/>
+            <xs:enumeration value="Comunicat"/>
+            <xs:enumeration value="Contracte de treball"/>
+            <xs:enumeration value="Contracte"/>
+            <xs:enumeration value="Conveni"/>
+            <xs:enumeration value="Convocatòria"/>
+            <xs:enumeration value="Currículum"/>
+            <xs:enumeration value="Cèdula d'habitabilitat"/>
+            <xs:enumeration value="Cèdula hipotecària"/>
+            <xs:enumeration value="Declaració censal d'alta"/>
+            <xs:enumeration value="Declaració d'activitats"/>
+            <xs:enumeration value="Declaració d'impacte ambiental"/>
+            <xs:enumeration value="Declaració patrimonial i d'interessos"/>
+            <xs:enumeration value="Declaració responsable"/>
+            <xs:enumeration value="Declaració tributària"/>
+            <xs:enumeration value="Declaració"/>
+            <xs:enumeration value="Decret d'Alcaldia/ Decret de Presidència"/>
+            <xs:enumeration value="Decret legislatiu"/>
+            <xs:enumeration value="Decret llei"/>
+            <xs:enumeration value="Decret"/>
+            <xs:enumeration value="Demanda"/>
+            <xs:enumeration value="Denúncia administrativa"/>
+            <xs:enumeration value="Denúncia"/>
+            <xs:enumeration value="Descripció de lloc de treball"/>
+            <xs:enumeration value="Desistiment"/>
+            <xs:enumeration value="Diagrama"/>
+            <xs:enumeration value="Dictamen"/>
+            <xs:enumeration value="Diligència"/>
+            <xs:enumeration value="Document Administratiu"/>
+            <xs:enumeration value="Document Nacional d'Identitat"/>
+            <xs:enumeration value="Document comptable. Autorització de la despesa"/>
+            <xs:enumeration value="Document comptable. Disposició"/>
+            <xs:enumeration value="Document comptable. Obligació"/>
+            <xs:enumeration value="Edicte"/>
+            <xs:enumeration value="Enquesta"/>
+            <xs:enumeration value="Enregistrament d'imatge en moviment"/>
+            <xs:enumeration value="Enregistrament sonor"/>
+            <xs:enumeration value="Entrevista"/>
+            <xs:enumeration value="Escriptura"/>
+            <xs:enumeration value="Escrit de recusació"/>
+            <xs:enumeration value="Esmena"/>
+            <xs:enumeration value="Estadística"/>
+            <xs:enumeration value="Estatuts"/>
+            <xs:enumeration value="Estudi de seguretat i salut"/>
+            <xs:enumeration value="Estudi"/>
+            <xs:enumeration value="Etiqueta"/>
+            <xs:enumeration value="Examen"/>
+            <xs:enumeration value="Executòria"/>
+            <xs:enumeration value="Extracte de comptes"/>
+            <xs:enumeration value="Extracte"/>
+            <xs:enumeration value="Factura"/>
+            <xs:enumeration value="Fax"/>
+            <xs:enumeration value="Fitxa"/>
+            <xs:enumeration value="Fotografia"/>
+            <xs:enumeration value="Full d'apreuament"/>
+            <xs:enumeration value="Full d'assumeix"/>
+            <xs:enumeration value="Full de servei"/>
+            <xs:enumeration value="Full de transferència"/>
+            <xs:enumeration value="Fulls de Nòmina"/>
+            <xs:enumeration value="Garantia"/>
+            <xs:enumeration value="Guia"/>
+            <xs:enumeration value="Guió"/>
+            <xs:enumeration value="Horari"/>
+            <xs:enumeration value="Incapacitat permanent"/>
+            <xs:enumeration value="Índex electrònic"/>
+            <xs:enumeration value="Informe"/>
+            <xs:enumeration value="Instrucció judicial"/>
+            <xs:enumeration value="Instrucció"/>
+            <xs:enumeration value="Interlocutòria"/>
+            <xs:enumeration value="Inventari"/>
+            <xs:enumeration value="Invitació"/>
+            <xs:enumeration value="Justificant de presència"/>
+            <xs:enumeration value="Justificant de recepció"/>
+            <xs:enumeration value="Justificant"/>
+            <xs:enumeration value="Laude"/>
+            <xs:enumeration value="Liquidació de condemna"/>
+            <xs:enumeration value="Liquidació del pressupost"/>
+            <xs:enumeration value="Llei"/>
+            <xs:enumeration value="Lletra de canvi"/>
+            <xs:enumeration value="Llibre d'incidències d'obra"/>
+            <xs:enumeration value="Llibre de família"/>
+            <xs:enumeration value="Llibre de l'edifici"/>
+            <xs:enumeration value="Llibreta d'inscripció marítima"/>
+            <xs:enumeration value="Llicència"/>
+            <xs:enumeration value="Llista de control"/>
+            <xs:enumeration value="Llista de nòmina"/>
+            <xs:enumeration value="Llista/Llistat"/>
+            <xs:enumeration value="Manament d'ingrés"/>
+            <xs:enumeration value="Manament de pagament"/>
+            <xs:enumeration value="Manament judicial"/>
+            <xs:enumeration value="Manual"/>
+            <xs:enumeration value="Memòria de comptes anuals"/>
+            <xs:enumeration value="Memòria econòmica"/>
+            <xs:enumeration value="Memòria justificativa"/>
+            <xs:enumeration value="Memòria testamentaria"/>
+            <xs:enumeration value="Memòria tècnica"/>
+            <xs:enumeration value="Memòria"/>
+            <xs:enumeration value="Minuta"/>
+            <xs:enumeration value="Moció de censura"/>
+            <xs:enumeration value="Moció"/>
+            <xs:enumeration value="Nomenament"/>
+            <xs:enumeration value="Nota de premsa"/>
+            <xs:enumeration value="Nota simple"/>
+            <xs:enumeration value="Notificació"/>
+            <xs:enumeration value="Número d'Identitat d'Estranger (NIE)"/>
+            <xs:enumeration value="Oferta econòmica"/>
+            <xs:enumeration value="Ofici"/>
+            <xs:enumeration value="Ordenança"/>
+            <xs:enumeration value="Ordre del dia"/>
+            <xs:enumeration value="Ordre"/>
+            <xs:enumeration value="Organigrama"/>
+            <xs:enumeration value="Pacte"/>
+            <xs:enumeration value="Padró"/>
+            <xs:enumeration value="Passaport"/>
+            <xs:enumeration value="Permís de circulació de vehicles"/>
+            <xs:enumeration value="Permís de conduir"/>
+            <xs:enumeration value="Permís"/>
+            <xs:enumeration value="Pla d'estudis"/>
+            <xs:enumeration value="Pla de projecte"/>
+            <xs:enumeration value="Pla docent"/>
+            <xs:enumeration value="Pla"/>
+            <xs:enumeration value="Plec de clàusules"/>
+            <xs:enumeration value="Plec de càrrecs"/>
+            <xs:enumeration value="Plec de descàrrec"/>
+            <xs:enumeration value="Plica"/>
+            <xs:enumeration value="Plànol"/>
+            <xs:enumeration value="Ponència"/>
+            <xs:enumeration value="Prec"/>
+            <xs:enumeration value="Pregunta parlamentària o al Ple"/>
+            <xs:enumeration value="Pregunta"/>
+            <xs:enumeration value="Presa de possessió"/>
+            <xs:enumeration value="Presentació"/>
+            <xs:enumeration value="Pressupost públic"/>
+            <xs:enumeration value="Pressupost"/>
+            <xs:enumeration value="Programa"/>
+            <xs:enumeration value="Projecte de llei"/>
+            <xs:enumeration value="Projecte"/>
+            <xs:enumeration value="Proposició de llei"/>
+            <xs:enumeration value="Proposta d'inici de tràmit"/>
+            <xs:enumeration value="Proposta de liquidació"/>
+            <xs:enumeration value="Proposta de resolució"/>
+            <xs:enumeration value="Proposta"/>
+            <xs:enumeration value="Protocol notarial"/>
+            <xs:enumeration value="Protocol"/>
+            <xs:enumeration value="Providència"/>
+            <xs:enumeration value="Provisió"/>
+            <xs:enumeration value="Publicació oficial (DOGC/BOP)"/>
+            <xs:enumeration value="Publicació"/>
+            <xs:enumeration value="Pòlissa"/>
+            <xs:enumeration value="Queixa"/>
+            <xs:enumeration value="Querella"/>
+            <xs:enumeration value="Qüestionari"/>
+            <xs:enumeration value="Qüestió d'inconstitucionalitat"/>
+            <xs:enumeration value="Qüestió de confiança"/>
+            <xs:enumeration value="Rebut"/>
+            <xs:enumeration value="Recepta mèdica"/>
+            <xs:enumeration value="Reclamació"/>
+            <xs:enumeration value="Recomanació"/>
+            <xs:enumeration value="Recurs contenciós-administratiu"/>
+            <xs:enumeration value="Recurs d'alçada"/>
+            <xs:enumeration value="Recurs d'empara"/>
+            <xs:enumeration value="Recurs d'inconstitucionalitat"/>
+            <xs:enumeration value="Recurs de queixa"/>
+            <xs:enumeration value="Recurs extraordinari de revisió"/>
+            <xs:enumeration value="Recurs potestatiu de reposició"/>
+            <xs:enumeration value="Recurs"/>
+            <xs:enumeration value="Referència"/>
+            <xs:enumeration value="Registre"/>
+            <xs:enumeration value="Reglament"/>
+            <xs:enumeration value="Renúncia"/>
+            <xs:enumeration value="Repertori"/>
+            <xs:enumeration value="Requeriment"/>
+            <xs:enumeration value="Reserva de crèdit"/>
+            <xs:enumeration value="Resolució"/>
+            <xs:enumeration value="Resposta parlamentària o al Ple"/>
+            <xs:enumeration value="Retall De Premsa"/>
+            <xs:enumeration value="Saluda"/>
+            <xs:enumeration value="Sentència"/>
+            <xs:enumeration value="Sol·licitud"/>
+            <xs:enumeration value="TC1. Butlletí de cotització a la seguretat social"/>
+            <xs:enumeration value="TC2. Butlletí de cotització a la seguretat social. Relació Nominal de Treballadors"/>
+            <xs:enumeration value="Targeta d'Identificació Fiscal"/>
+            <xs:enumeration value="Targeta d'Identitat d'Estranger (TIE)"/>
+            <xs:enumeration value="Targeta sanitària europea (TSE)"/>
+            <xs:enumeration value="Targeta sanitària individual (TSI)"/>
+            <xs:enumeration value="Targeta"/>
+            <xs:enumeration value="Telegrama"/>
+            <xs:enumeration value="Testament"/>
+            <xs:enumeration value="Títol"/>
+            <xs:enumeration value="Vot particular"/>
+            <xs:enumeration value="Xec"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="classificacio_seguretat_acces" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Accés públic"/>
+            <xs:enumeration value="Accés restringit"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="sensibilitat_dades_LOPD" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Nivell baix"/>
+            <xs:enumeration value="Nivell mig"/>
+            <xs:enumeration value="Nivell alt"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="nivell_classificacio_evidencial" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Sense evidència (identificació al·legada)"/>
+            <xs:enumeration value="Evidència d'entitat"/>
+            <xs:enumeration value="Evidència d'origen de dades"/>
+            <xs:enumeration value="Evidència d'autenticitat"/>
+            <xs:enumeration value="Evidència de signatura electrònica"/>
+            <xs:enumeration value="Evidència completa de signatura electrònica"/>
+            <xs:enumeration value="Evidència de llarga durada de signatura electrònica"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="document_essencial" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Sí"/>
+            <xs:enumeration value="No"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

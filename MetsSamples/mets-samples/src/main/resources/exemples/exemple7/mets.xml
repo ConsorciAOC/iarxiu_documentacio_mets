@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets LABEL="Exemple expedient menors" PROFILE="Expedient" xmlns:METS="http://www.loc.gov/METS/" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:premis="http://www.loc.gov/standards/premis/v1"  xmlns:pac="iarxiu:vocabularies:package"  xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd" TYPE="urn:iarxiu:templates:plant_exp_y_doc_flex">
+
+  <METS:dmdSec ID="DMD_1">
+    <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:vocabularies:expedient" MIMETYPE="text/xml">
+        <METS:xmlData>
+          <exp:expedient xmlns:exp="http://schemas.user.iarxiu.hp.com/expedient">
+            <exp:codi_referencia>CAT/AACC/D1161_N-185_05</exp:codi_referencia>
+            <exp:numero_expedient>185/08</exp:numero_expedient>
+            <exp:codi_classificacio>G0200</exp:codi_classificacio>
+            <exp:titol_serie_documental>Expedients de personal</exp:titol_serie_documental>
+            <exp:nivell_descripcio>Unitat documental composta</exp:nivell_descripcio>
+            <exp:titol>Expedient de contractació per a la compra de quinze ordinadors</exp:titol>
+            <exp:data_obertura>2008-05-17T09:30:47.0Z</exp:data_obertura>
+            <exp:data_tancament>2008-05-17T09:30:47.0Z</exp:data_tancament>
+            <exp:nom_productor>Agència Catalana de Certificació</exp:nom_productor>
+            <exp:unitat_productora>Direcció General</exp:unitat_productora>
+            <exp:descripcio>String</exp:descripcio>
+            <exp:descriptors>String</exp:descriptors>
+            <exp:documentacio_relacionada>String</exp:documentacio_relacionada>
+            <exp:tipus_relacio>String</exp:tipus_relacio>
+            <exp:classificacio_seguretat_acces>Accés públic</exp:classificacio_seguretat_acces>
+            <exp:sensibilitat_dades_LOPD>Nivell baix</exp:sensibilitat_dades_LOPD>
+          </exp:expedient>
+        </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>   
+
+  <METS:dmdSec ID="DMD_DOC1">
+    <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:vocabularies:documentExp" MIMETYPE="text/xml" >
+        <METS:xmlData>
+          <doc:document xmlns:doc="http://schemas.user.iarxiu.hp.com/docExp">
+            <doc:codi_referencia>CAT/AACC/D1161_N-185_05/01</doc:codi_referencia>
+            <doc:numero_document>01</doc:numero_document>
+            <doc:titol>Resolució d’adjudicació del contracte de subministrament de 15 ordinadors</doc:titol>
+            <doc:data_creacio>2008-05-17T09:30:47.0Z</doc:data_creacio>
+            <doc:nivell_descripcio>Unitat documental simple</doc:nivell_descripcio>
+            <doc:suport>Electrònic</doc:suport>
+            <doc:nom_productor>Agència Catalana de Certificació</doc:nom_productor>
+            <doc:unitat_productora>Direcció General</doc:unitat_productora>
+            <doc:descripcio>Resolució d’adjudicació signada pel director general adjudicant el contracte de subministrament de 15 ordinadors a l’empresa XTS</doc:descripcio>
+            <doc:descriptors>String</doc:descriptors>
+            <doc:tipus_document>Acta</doc:tipus_document>
+            <doc:classificacio_seguretat_acces>Accés públic</doc:classificacio_seguretat_acces>
+            <doc:sensibilitat_dades_LOPD>Nivell baix</doc:sensibilitat_dades_LOPD>
+            <doc:nivell_classificacio_evidencial>Sense evidència (identificació al•legada)</doc:nivell_classificacio_evidencial>
+          </doc:document>
+        </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>   
+
+<!--  <METS:fileSec>
+    <METS:fileGrp ID="BIN_1" >
+      <METS:file ID="BIN_1.0" MIMETYPE="application/msword" CHECKSUM="99800b85d3383e3a2fb45eb7d0066a4879a9dad0" CHECKSUMTYPE="SHA-1">
+        <METS:FContent>
+          <METS:binData>aG9sYQ==</METS:binData>
+        </METS:FContent>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>-->
+
+<METS:structMap>
+    <METS:div LABEL="expedient" DMDID="DMD_1">
+      <METS:div LABEL="document_1" DMDID="DMD_DOC1">
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+
+  
+</METS:mets>

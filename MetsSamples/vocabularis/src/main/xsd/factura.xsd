@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.user.iarxiu.hp.com/2.0/fact" targetNamespace="http://schemas.user.iarxiu.hp.com/2.0/fact" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="factura">
+    <xs:annotation>
+      <xs:documentation>Definició del vocabulari d'una factura</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="num_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="import_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="num_certificacio" type="xs:string" minOccurs="0"/>
+        <xs:element name="import_certificacio" type="xs:string" minOccurs="0"/>
+        <xs:element name="import_contractacio" type="xs:string" minOccurs="0"/>
+        <xs:element name="descripcio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="partida_pressupostaria" type="xs:string" minOccurs="0"/>
+        <xs:element name="tipus_venciment" type="xs:string" minOccurs="0"/>
+        <xs:element name="tipus_venciment_variable" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_venciment_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="usuari_certificacio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_certificacio" type="xs:string" minOccurs="0"/>
+        <xs:element name="usuari_comptabilitzacio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_comptabilitzacio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="usuari_fiscalitzacio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_fiscalitzacio_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="usuari_autoritzacio_pagament_factura" type="xs:string" minOccurs="0"/>
+        <xs:element name="data_autoritzacio_pagament_factura" type="xs:string" minOccurs="0"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

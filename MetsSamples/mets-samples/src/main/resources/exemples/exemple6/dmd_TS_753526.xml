@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voc:expedient xmlns:mets="http://www.loc.gov/METS/" xmlns:voc="http://schemas.user.iarxiu.hp.com/2.0/Voc_expedient" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <voc:codi_referencia>CAT/AADF/F0914/202184/753526</voc:codi_referencia>
+    <voc:numero_expedient>753526</voc:numero_expedient>
+    <voc:codi_classificacio>nototesav</voc:codi_classificacio>
+    <voc:titol_serie_documental>PLATAFORMA DE SERVEIS DE CONTRACTACIÓ PÚBLICA</voc:titol_serie_documental>
+    <voc:nivell_descripcio>Unitat documental composta</voc:nivell_descripcio>
+    <voc:titol>test 29-03-10</voc:titol>
+    <voc:data_obertura>2010-03-29T16:32:00</voc:data_obertura>
+    <voc:data_tancament>2010-03-31T16:32:00</voc:data_tancament>
+    <voc:nom_productor>DEPARTAMENT D'EDUCACIÓ</voc:nom_productor>
+    <voc:unitat_productora>202184</voc:unitat_productora>
+    <voc:descripcio/>
+    <voc:classificacio_seguretat_acces>Accés restringit</voc:classificacio_seguretat_acces>
+    <voc:sensibilitat_dades_LOPD>Nivell baix</voc:sensibilitat_dades_LOPD>
+    </voc:expedient>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voc:signatura xmlns:voc="http://schemas.user.iarxiu.hp.com/2.0/Voc_signatura">
+<voc:identificador>bin_1</voc:identificador>
+<voc:identificador_document>documento.doc</voc:identificador_document>
+<voc:tipus_signatura>Independent (detached)</voc:tipus_signatura>
+<voc:tipus_contingut>XML</voc:tipus_contingut>
+</voc:signatura>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets TYPE="urn:iarxiu:2.0:templates:catcert:PL_expedient" xmlns:mets="http://www.loc.gov/METS/"><mets:dmdSec ID="TS_753526"><mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:2.0:vocabularies:catcert:Voc_expedient" MIMETYPE="text/xml"><mets:xmlData><voc:expedient xmlns:voc="http://schemas.user.iarxiu.hp.com/2.0/Voc_expedient" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <voc:codi_referencia>CAT/AADF/F0914/202184/753526</voc:codi_referencia>
+    <voc:numero_expedient>753526</voc:numero_expedient>
+    <voc:codi_classificacio>nototesav</voc:codi_classificacio>
+    <voc:titol_serie_documental>PLATAFORMA DE SERVEIS DE CONTRACTACIÓ PÚBLICA</voc:titol_serie_documental>
+    <voc:nivell_descripcio>Unitat documental composta</voc:nivell_descripcio>
+    <voc:titol>test 29-03-10</voc:titol>
+    <voc:data_obertura>2010-03-29T16:32:00</voc:data_obertura>
+    <voc:data_tancament>2010-03-31T16:32:00</voc:data_tancament>
+    <voc:nom_productor>DEPARTAMENT D'EDUCACIÓ</voc:nom_productor>
+    <voc:unitat_productora>202184</voc:unitat_productora>
+    <voc:descripcio/>
+    <voc:classificacio_seguretat_acces>Accés restringit</voc:classificacio_seguretat_acces>
+    <voc:sensibilitat_dades_LOPD>Nivell baix</voc:sensibilitat_dades_LOPD>
+    </voc:expedient></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:dmdSec ID="CN_753535"><mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:2.0:vocabularies:catcert:Voc_document_exp" MIMETYPE="text/xml"><mets:xmlData><doc:document xmlns:doc="http://schemas.user.iarxiu.hp.com/2.0/Voc_document_exp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<doc:codi_referencia>w</doc:codi_referencia>
+	<doc:titol>w</doc:titol>
+	<doc:data_creacio>2008-10-22T16:32:00</doc:data_creacio>
+	<doc:nivell_descripcio>Unitat documental simple</doc:nivell_descripcio>
+	<doc:suport>w</doc:suport>
+	<doc:tipus_document>Acta</doc:tipus_document>
+</doc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:dmdSec ID="CN_753535_PDF"><mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:2.0:vocabularies:catcert:Voc_document_exp" MIMETYPE="text/xml"><mets:xmlData><doc:document xmlns:doc="http://schemas.user.iarxiu.hp.com/2.0/Voc_document_exp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<doc:codi_referencia>w</doc:codi_referencia>
+	<doc:titol>w</doc:titol>
+	<doc:data_creacio>2008-10-22T16:32:00</doc:data_creacio>
+	<doc:nivell_descripcio>Unitat documental simple</doc:nivell_descripcio>
+	<doc:suport>w</doc:suport>
+	<doc:tipus_document>Autorització</doc:tipus_document>
+</doc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_753535"><mets:file CHECKSUM="c8f1044ad2409405114b815dd0f67fa5bead5f0e" CHECKSUMTYPE="SHA-1" CREATED="2022-05-10T12:16:02.566+02:00" ID="BIN_753535.0" MIMETYPE="text/xml"><mets:FLocat xlin:href="753526/CN/753535/CN_753535.xml" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp><mets:fileGrp ID="BIN_753535_PDF"><mets:file CHECKSUM="1de84b367e3aedb7268dbdc2bfaea116d6ebeedb" CHECKSUMTYPE="SHA-1" CREATED="2022-05-10T12:16:02.604+02:00" ID="BIN_753535_PDF.0" MIMETYPE="application/pdf"><mets:FLocat xlin:href="753526/CN/753535/CN_753535.pdf" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div LABEL="expedient_1AL_1AF" DMDID="TS_753526"><mets:div DMDID="CN_753535"><mets:div LABEL="CN_753535.xml"><mets:fptr FILEID="BIN_753535"/></mets:div><mets:div DMDID="CN_753535_PDF"><mets:fptr FILEID="BIN_753535_PDF"/></mets:div></mets:div></mets:div></mets:structMap></mets:mets>

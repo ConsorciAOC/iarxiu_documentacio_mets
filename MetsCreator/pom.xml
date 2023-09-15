@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <project xmlns="http://maven.apache.org/POM/4.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>iarxiu.extras</groupId>
+	<artifactId>mets-creator</artifactId>
+	<version>2.20.7</version>
+
+	<name>Mets Creator</name>
+	<description>Mets Creator, to include as part of MetsCreation (this last one intended for integrator developers)</description>
+
+	<properties>
+		<!-- Build properties -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<!-- iarxiu.libs -->
+			<groupId>iarxiu.libs</groupId>
+			<artifactId>mets-schema</artifactId>
+			<version>2.20.7</version>
+		</dependency>
+		<dependency>
+			<groupId>iarxiu.libs</groupId>
+			<artifactId>xmlschema-validator</artifactId>
+			<version>2.20.7</version>
+		</dependency>
+		<!-- iarxiu.libs -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring</artifactId>
+			<version>2.5.4</version>
+		</dependency>
+	</dependencies>
+
+</project>

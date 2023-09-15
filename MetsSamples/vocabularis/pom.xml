@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <project xmlns="http://maven.apache.org/POM/4.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>iarxiu.extras</groupId>
+	<artifactId>vocabularis</artifactId>
+	<version>2.20.7</version>
+
+	<!-- More Project Information -->
+	<name>vocabularis</name>
+	<description>Compiled Vocabularis</description>
+
+	<parent>
+		<groupId>iarxiu.extras</groupId>
+		<artifactId>root</artifactId>
+		<version>2.20.7</version>
+	</parent>
+
+	<properties>
+		<!-- Dependencies versions -->
+		<xmlbeans.version>2.3.0</xmlbeans.version>
+	</properties>
+
+	<dependencies>
+		<!-- Third Party Dependencies -->
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>${xmlbeans.version}</version>
+		</dependency>
+	</dependencies>
+
+	<!-- Build Settings -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>xmlbeans-maven-plugin</artifactId>
+				<version>2.3.3</version>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/xsd</directory>
+				<includes>
+					<include>*.xsd</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>2.5</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.5.2</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>2.6</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.11</version>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>xmlbeans-maven-plugin</artifactId>
+					<version>2.3.3</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>xmlbeans</goal>
+							</goals>
+						</execution>
+					</executions>
+					<inherited>true</inherited>
+					<configuration>
+						<download>true</download>
+						<javaSource>1.5</javaSource>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+</project>

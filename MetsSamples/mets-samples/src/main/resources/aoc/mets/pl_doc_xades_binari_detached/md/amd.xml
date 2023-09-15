@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ES RECOMANA NOMES INDICAR EL ID_DOCUMENT. REVISAR GUIA -->
+<sig:signatura xmlns:sig="http://schemas.user.iarxiu.hp.com/2.0/Voc_signatura">
+<sig:identificador_document>BIN_1.0</sig:identificador_document>
+<sig:tipus_contingut>Binari</sig:tipus_contingut>
+</sig:signatura>

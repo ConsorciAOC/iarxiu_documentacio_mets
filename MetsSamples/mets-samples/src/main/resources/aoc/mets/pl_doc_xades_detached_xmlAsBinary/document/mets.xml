@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mets:mets TYPE="urn:iarxiu:2.0:templates:catcert:PL_document" xmlns:mets="http://www.loc.gov/METS/"><mets:dmdSec ID="DMD_1"><mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:2.0:vocabularies:catcert:Voc_document" MIMETYPE="text/xml"><mets:xmlData><voc:document xmlns:voc="http://schemas.user.iarxiu.hp.com/2.0/Voc_document">
+	<voc:codi_referencia>CodiRef</voc:codi_referencia>
+	<voc:codi_classificacio>CodiClassificacio</voc:codi_classificacio>	
+	<voc:titol_serie_documental>TitolSerieDoc</voc:titol_serie_documental>
+	<voc:titol>2023-08-02T17:22:40</voc:titol>
+	<voc:data_creacio>2015-09-16T13:46:21</voc:data_creacio>
+	<voc:nivell_descripcio>Descripcio</voc:nivell_descripcio>
+	<voc:suport>Document</voc:suport>
+</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:amdSec ID="AMD_1"><mets:techMD ID="AMD_1.0"><mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="urn:iarxiu:2.0:vocabularies:catcert:Voc_signatura" MIMETYPE="text/xml"><mets:xmlData><!-- ES RECOMANA NOMES INDICAR EL ID_DOCUMENT. REVISAR GUIA --><sig:signatura xmlns:sig="http://schemas.user.iarxiu.hp.com/2.0/Voc_signatura">
+<sig:identificador_document>BIN_1.0</sig:identificador_document>
+<sig:tipus_contingut>Binari</sig:tipus_contingut>
+</sig:signatura></mets:xmlData></mets:mdWrap></mets:techMD></mets:amdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="dbf4b9e53e82bdef12348ee4dad6ef82a1c5be31" CHECKSUMTYPE="SHA-1" CREATED="2023-08-02T17:22:40.470+02:00" ID="BIN_1.0" MIMETYPE="text/xml"><mets:FLocat xlin:href="doc.xml" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp><mets:fileGrp ID="BIN_2"><mets:file CHECKSUM="56c08af41faa36ec32f1774b1da97b9f4c31ba34" CHECKSUMTYPE="SHA-1" CREATED="2023-08-02T17:22:40.501+02:00" ID="BIN_2.0" MIMETYPE="text/xml"><mets:FLocat xlin:href="signatura.xml" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="doc.xml"><mets:fptr FILEID="BIN_1"/></mets:div><mets:div LABEL="signatura.xml" ADMID="AMD_1"><mets:fptr FILEID="BIN_2"/></mets:div></mets:div></mets:structMap></mets:mets>

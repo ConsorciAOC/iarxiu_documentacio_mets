@@ -1,0 +1,74 @@
+<ds:Signature Id="Signature" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:dss="urn:oasis:names:tc:dss:1.0:core:schema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<ds:SignedInfo Id="SignedInfo">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedProperties-Reference" Type="http://uri.etsi.org/01903/v1.2.2#SignedProperties" URI="#SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>1dKp73ab9062VKDTHm3ILxIoR0g=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="SignedDataObject-Reference" URI="DetachedObjectReference-1">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>HIUynIMFYzdtoPGNTTpxHmE5W58=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="DocumentSignatureValue">
+idzyaI6csfnk+Faa0Qt54HdyU7cvfltfxmKP5FX73xVK3nicdLXN7YdKB1pRFctciiKi0v5PbRP/
+56H1XSvX700MjgnHpl6TSMr2O0fxCayBcLy1EpZpnmgQqwaksrGQKAWlal3UvZL0VmntvKx7WJka
+8DyY55ZDF5+Vv7zwops=
+</ds:SignatureValue>
+<ds:KeyInfo Id="KeyInfo">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIYjCCB0qgAwIBAgIQZ35tc2qRKilMPZnlob2dyjANBgkqhkiG9w0BAQUFADCCATExCzAJBgNV
+BAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEt
+MDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJh
+cmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE3
+MDUGA1UECxMuVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgICAoYykwMzE0
+MDIGA1UECxMrU2VjcmV0YXJpYSBkJ0FkbWluaXN0cmFjaW8gaSBGdW5jaW8gUHVibGljYTEQMA4G
+A1UEAxMHRUMtU0FGUDAeFw0xMDA3MTQxMTA1MDlaFw0xNDA3MTQxMTA1MDRaMIIBFzELMAkGA1UE
+BhMCRVMxJjAkBgNVBAoUHURlcGFydGFtZW50IGRlIGxhIFByZXNpZOhuY2lhMRswGQYDVQQLExJP
+ZmljaW5hIGRlbCBHb3Zlcm4xMDAuBgNVBAsUJ1NlcnZlaXMgUPpibGljcyBkZSBDZXJ0aWZpY2Fj
+afMgQ1BJU1ItMTE3MDUGA1UECxMuVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5jYXQvdmVyQ1BJ
+U1ItMSAoYykwMzETMBEGA1UEBBMKQWJiYWQgU29ydDENMAsGA1UEKhMETmV1czESMBAGA1UEBRMJ
+MzcyNjM0NThQMSAwHgYDVQQDExdDUElTUi0xIE5ldXMgQWJiYWQgU29ydDCBnzANBgkqhkiG9w0B
+AQEFAAOBjQAwgYkCgYEAr2KcV5IO123T+53RdignWG1SMPqnryOmu9MzMFCyVLLv7oeZiRhsqRn3
+j0Z7mWEq24P9WVRQmN1+K/TfA17bQq8R5FZ/sEwllBYA0K92vmWMbZb0XG4s4L6hoqNGB1UmnrRe
+NDOGRD19M28A7H4+sUY1kHD89ErTe23CpkuHWcUCAwEAAaOCBA4wggQKMB4GA1UdEgQXMBWBE2Vj
+X3NhZnBAY2F0Y2VydC5uZXQwNAYDVR0RBC0wK4ERbmFiYmFkQGdlbmNhdC5jYXSkFjAUMRIwEAYD
+VQQFEwlTMDgxMTAwMUcwDgYDVR0PAQH/BAQDAgbAMCkGA1UdJQQiMCAGCCsGAQUFBwMCBggrBgEF
+BQcDBAYKKwYBBAGCNxQCAjARBglghkgBhvhCAQEEBAMCBaAwHQYDVR0OBBYEFA2yLAVhbXQngrKe
+kD+czdtWfvZwMIIBJwYDVR0jBIIBHjCCARqAFAW37U8WUt365pLAonJ5VmBUwiQToYHvpIHsMIHp
+MQswCQYDVQQGEwJFUzE7MDkGA1UEChMyQWdlbmNpYSBDYXRhbGFuYSBkZSBDZXJ0aWZpY2FjaW8g
+KE5JRiBRLTA4MDExNzYtSSkxLjAsBgNVBAsTJVNlcnZlaXMgUHVibGljcyBkZSBDZXJ0aWZpY2Fj
+aW8gRUNWLTExNjA0BgNVBAsTLVZlZ2V1IGh0dHBzOi8vd3d3LmNhdGNlcnQubmV0L3ZlckNJQy0x
+ICAoYykwMzEhMB8GA1UECxMYR2VuZXJhbGl0YXQgZGUgQ2F0YWx1bnlhMRIwEAYDVQQDEwlFQy1H
+RU5DQVSCEG/vLxT0T8zfPhwhFpiMFTYwgegGA1UdIASB4DCB3TCB2gYLKwYBBAH1eAEDAVEwgcow
+LgYIKwYBBQUHAgEWImh0dHBzOi8vd3d3LmNhdGNlcnQuY2F0L3ZlckNQSVNSLTEwgZcGCCsGAQUF
+BwICMIGKGoGHQXF1ZXN0IOlzIHVuIGNlcnRpZmljYXQgcGVyc29uYWwgcmVjb25lZ3V0IGQnaWRl
+bnRpZmljYWNp8yBpIHNpZ25hdHVyYSByZWNvbmVndWRhIGRlIGNsYXNzZSAxLiBWZWdldSBodHRw
+czovL3d3dy5jYXRjZXJ0LmNhdC92ZXJDUElTUi0xMHAGCCsGAQUFBwEBBGQwYjAjBggrBgEFBQcw
+AYYXaHR0cDovL29jc3AuY2F0Y2VydC5jYXQwOwYIKwYBBQUHMAKGL2h0dHA6Ly93d3cuY2F0Y2Vy
+dC5jYXQvZGVzY2FycmVnYS9zYWZzX2NzcnMuY3J0MC8GCCsGAQUFBwEDBCMwITAIBgYEAI5GAQEw
+CwYGBACORgEDAgEPMAgGBgQAjkYBBDAmBgorBgEEAfV4AQQCBBgTFlN0YW5kYXJkU2l6ZSBTbWFy
+dENhcmQwZAYDVR0fBF0wWzBZoFegVYYoaHR0cDovL2Vwc2NkLmNhdGNlcnQubmV0L2NybC9lYy1z
+YWZwLmNybIYpaHR0cDovL2Vwc2NkMi5jYXRjZXJ0Lm5ldC9jcmwvZWMtc2FmcC5jcmwwDQYJKoZI
+hvcNAQEFBQADggEBABWim4RBKx+rO2zONu9zKC4ELej/LRbBjkfSeOAEhjWM2hBCUvG8yYgGF6/1
+bRLfh39H2dzoX9Xij9HY1NmHfOwY6cOPwV3scCRZvu9AE2ZAYlCeN3Vzq5Xw6OAv/IUBobmCacrY
+NHKP8lrhOvujxC7o1K+DrbovxHtiExEwhJLIy0nhtOWdeeIA6ZIICRbJQC2JtQe3m2eUp3vbEdDA
+Ula256pYVo13972KvCR/IBl5c3Xm5omjbjwXez76LTynP+mdlzn8dWHBlSUti8FX6VSBRRc+XIzi
+Xj+RIGaH0mQf6Yfnk2sqgMhUHIGU1MTCgkEfth+ICq2gwhlfFjAPmys=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+r2KcV5IO123T+53RdignWG1SMPqnryOmu9MzMFCyVLLv7oeZiRhsqRn3j0Z7mWEq24P9WVRQmN1+
+K/TfA17bQq8R5FZ/sEwllBYA0K92vmWMbZb0XG4s4L6hoqNGB1UmnrReNDOGRD19M28A7H4+sUY1
+kHD89ErTe23CpkuHWcU=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties Id="QualifyingProperties" Target="#Signature" xmlns:xades="http://uri.etsi.org/01903/v1.2.2#"><xades:SignedProperties Id="SignedProperties"><xades:SignedSignatureProperties><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>R+Q92A8f6wtlVpHL5YqpoKDHG1U=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=EC-SAFP,OU=Secretaria d'Administracio i Funcio Publica,OU=Vegeu https://www.catcert.net/verCIC-2   (c)03,OU=Serveis Publics de Certificacio ECV-2,L=Passatge de la Concepcio 11 08008 Barcelona,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</ds:X509IssuerName><ds:X509SerialNumber>137566932896888114748871205648653458890</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties><xades:UnsignedProperties><xades:UnsignedSignatureProperties><xades:SignatureTimeStamp Id="id-6c55ab40-6977-4d9b-bc93-8d092ba3fabc"><xades:Include URI="#DocumentSignatureValue" referencedData="false"/><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><xades:EncapsulatedTimeStamp>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</xades:EncapsulatedTimeStamp></xades:SignatureTimeStamp><xades:CompleteCertificateRefs Id="id-78218d79-7ba0-4511-b42e-874fb97aa4b6"><xades:CertRefs><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>CVWrcqg7NzTDiQfhH9KVZkJxVuY=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=EC-GENCAT,OU=Generalitat de Catalunya,OU=Vegeu https://www.catcert.net/verCIC-1  (c)03,OU=Serveis Publics de Certificacio ECV-1,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</ds:X509IssuerName><ds:X509SerialNumber>148786221414740922626357724534625015094</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>8Ldbt5MRsOXQEPHtjcfljxW+aP0=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=EC-ACC,OU=Jerarquia Entitats de Certificacio Catalanes,OU=Vegeu https://www.catcert.net/verarrel (c)03,OU=Serveis Publics de Certificacio,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</ds:X509IssuerName><ds:X509SerialNumber>43517894977975666787701712876307936290</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:CertRefs></xades:CompleteCertificateRefs><xades:CompleteRevocationRefs Id="id-babdeda3-f55d-44f4-884f-f485e5ada29b"><xades:CRLRefs><xades:CRLRef><xades:DigestAlgAndValue><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>w0ONWZp97Mv45VYsCDSeGCIk1K0=</ds:DigestValue></xades:DigestAlgAndValue><xades:CRLIdentifier><xades:Issuer>CN=EC-SAFP,OU=Secretaria d'Administracio i Funcio Publica,OU=Vegeu https://www.catcert.net/verCIC-2   (c)03,OU=Serveis Publics de Certificacio ECV-2,L=Passatge de la Concepcio 11 08008 Barcelona,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</xades:Issuer><xades:IssueTime>2012-06-12T09:06:32.000Z</xades:IssueTime><xades:Number>8710</xades:Number></xades:CRLIdentifier></xades:CRLRef><xades:CRLRef><xades:DigestAlgAndValue><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>H8m6SrEBMzOplhWNpPqdC4FF154=</ds:DigestValue></xades:DigestAlgAndValue><xades:CRLIdentifier><xades:Issuer>CN=EC-GENCAT,OU=Generalitat de Catalunya,OU=Vegeu https://www.catcert.net/verCIC-1  (c)03,OU=Serveis Publics de Certificacio ECV-1,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</xades:Issuer><xades:IssueTime>2011-12-12T11:22:35.000Z</xades:IssueTime><xades:Number>9</xades:Number></xades:CRLIdentifier></xades:CRLRef><xades:CRLRef><xades:DigestAlgAndValue><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>upsekXKYmVKqCG21mxZNBKsLH8I=</ds:DigestValue></xades:DigestAlgAndValue><xades:CRLIdentifier><xades:Issuer>CN=EC-ACC,OU=Jerarquia Entitats de Certificacio Catalanes,OU=Vegeu https://www.catcert.net/verarrel (c)03,OU=Serveis Publics de Certificacio,O=Agencia Catalana de Certificacio (NIF Q-0801176-I),C=ES</xades:Issuer><xades:IssueTime>2011-12-12T11:18:45.000Z</xades:IssueTime><xades:Number>12</xades:Number></xades:CRLIdentifier></xades:CRLRef></xades:CRLRefs></xades:CompleteRevocationRefs></xades:UnsignedSignatureProperties></xades:UnsignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature>
