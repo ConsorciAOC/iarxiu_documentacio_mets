@@ -33,7 +33,7 @@ public class MetsTest {
 		mets.setTemplate(templateURN);
 		
 		// es carreguen de disc les metadades descriptives dels vocabularis d'expedient i de document
-		String path = "exemples/exemple1/".replaceAll("/", File.separator);
+		String path = "exemples/exemple1/".replace("/", File.separator);
 		InputStream dmd1Stream = ClassLoader.getSystemResourceAsStream(path  + "dmd1.xml");
 		InputStream dmd2Stream = ClassLoader.getSystemResourceAsStream(path  + "dmd2.xml");
 		InputStream dmd3Stream = ClassLoader.getSystemResourceAsStream(path  + "dmd3.xml");

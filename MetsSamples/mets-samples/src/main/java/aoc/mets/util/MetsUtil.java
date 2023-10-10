@@ -51,8 +51,8 @@ public class MetsUtil {
 				
 	public static void createZipPIT(String zipFilePath, String folderToZip) throws ZipException, IOException{
 		ZipUtil zipUtil = new ZipUtil(
-				zipFilePath.replaceAll("/", File.separator),
-				folderToZip.replaceAll("/", File.separator));
+				zipFilePath.replace("/", File.separator),
+				folderToZip.replace("/", File.separator));
 		zipUtil.zipIt();		
 	}
 	

@@ -21,7 +21,7 @@ public class MetsTest4 {
 	public static void main(String[] args) throws MetsException, Exception {
 		
 		//Càrrega del Mets
-		String path = "exemples/exemple4/".replaceAll("/", File.separator);
+		String path = "exemples/exemple4/".replace("/", File.separator);
 		InputStream metsStream = ClassLoader.getSystemResourceAsStream(path + "mets.xml");
 		// Parseig del mets
 		Mets mets = new Mets(metsStream);

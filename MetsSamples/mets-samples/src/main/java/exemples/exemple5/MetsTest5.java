@@ -27,7 +27,7 @@ public class MetsTest5 {
 		//instancia de la llibreria Mets
 		Mets mets = new Mets();
 		//Càrrega de les metadades descriptives
-		String path = "exemples/exemple5/".replaceAll("/", File.separator);
+		String path = "exemples/exemple5/".replace("/", File.separator);
 		InputStream dmd1_ok = ClassLoader.getSystemResourceAsStream(path + "dmd1_ok.xml");
 		
 		Document docXMLData_ok = Utils.getResourceAsDocument(dmd1_ok);

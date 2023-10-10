@@ -17,11 +17,11 @@ public class DocumentXadesBinariDetached {
 		try{
 
 			String fileSeparator = File.separator;
-			String userDir = System.getProperty("user.dir").replaceAll("/", fileSeparator);
+			String userDir = System.getProperty("user.dir").replace("/", fileSeparator);
 
-			String pathThisSample = ("aoc/mets/pl_doc_xades_binari_detached/").replaceAll("/", fileSeparator);
+			String pathThisSample = ("aoc/mets/pl_doc_xades_binari_detached/").replace("/", fileSeparator);
 			String fullPathThisSample = userDir +
-					("/mets-samples/src/main/resources/").replaceAll("/", fileSeparator) + pathThisSample;
+					("/src/main/resources/").replace("/", fileSeparator) + pathThisSample;
 			String pathOutDir = userDir + fileSeparator + "out" + fileSeparator + pathThisSample;
 			MetsUtil.createIfNotExistsDirectory(pathOutDir);
 

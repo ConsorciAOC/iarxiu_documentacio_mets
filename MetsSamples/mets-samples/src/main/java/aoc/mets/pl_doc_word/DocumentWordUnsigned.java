@@ -18,11 +18,11 @@ public class DocumentWordUnsigned {
 	public static void main(String[] args) throws MetsException, Exception {
 
 		String fileSeparator = File.separator;
-		String userDir = System.getProperty("user.dir").replaceAll("/", fileSeparator);
+		String userDir = System.getProperty("user.dir").replace("/", fileSeparator);
 
-		String pathThisSample = ("aoc/mets/pl_doc_word/").replaceAll("/", fileSeparator);
+		String pathThisSample = ("aoc/mets/pl_doc_word/").replace("/", fileSeparator);
 		String fullPathThisSample = userDir +
-				("/mets-samples/src/main/resources/").replaceAll("/", fileSeparator) + pathThisSample;
+				("/src/main/resources/").replace("/", fileSeparator) + pathThisSample;
 		String pathOutDir = userDir + fileSeparator + "out" + fileSeparator + pathThisSample;
 		MetsUtil.createIfNotExistsDirectory(pathOutDir);
 

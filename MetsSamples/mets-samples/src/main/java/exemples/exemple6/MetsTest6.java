@@ -28,7 +28,7 @@ public class MetsTest6 {
 	public static void main(String[] args) throws MetsException, Exception {
 
 		String fileSeparator = File.separator;
-		String userDir = System.getProperty("user.dir").replaceAll("/", fileSeparator);
+		String userDir = System.getProperty("user.dir").replace("/", fileSeparator);
 		String pathOutDir = userDir + "/out/exemples/exemple6/".replace("/", fileSeparator);
 		MetsUtil.createIfNotExistsDirectory(pathOutDir);
 		 
@@ -40,7 +40,7 @@ public class MetsTest6 {
 		mets.setTemplate(templateURN);
 		
 		// carrega de les metadades descriptives
-		String path = "exemples/exemple6/".replaceAll("/", File.separator);
+		String path = "exemples/exemple6/".replace("/", File.separator);
 		InputStream dmd1Stream = ClassLoader.getSystemResourceAsStream(path + "dmd_TS_753526.xml");
 		InputStream dmd2Stream = ClassLoader.getSystemResourceAsStream(path + "dmd_CN_753535.xml");
 		InputStream dmd3Stream = ClassLoader.getSystemResourceAsStream(path + "dmd_CN_753535_PDF.xml");
@@ -60,9 +60,9 @@ public class MetsTest6 {
 		System.out.println(checksumBinari2);
 		// creació de les estructures FileGrp per a binaris referenciats
 		mets.createFileGrp("BIN_753535", checksumBinari1, "BIN_753535.0", "text/xml",
-				"753526/CN/753535/CN_753535.xml".replaceAll("/", fileSeparator));
+				"753526/CN/753535/CN_753535.xml".replace("/", fileSeparator));
 		mets.createFileGrp("BIN_753535_PDF", checksumBinari2, "BIN_753535_PDF.0", "application/pdf",
-				"753526/CN/753535/CN_753535.pdf".replaceAll("/", fileSeparator));
+				"753526/CN/753535/CN_753535.pdf".replace("/", fileSeparator));
 		// creació secció structMap
 		// es crea la rootDiv
 		DivType rootDiv = mets.createRootDiv("TS_753526", "expedient_1AL_1AF");
@@ -83,13 +83,13 @@ public class MetsTest6 {
 
 		//guardem el fitxer mets.xml
 		String metsFile = userDir +
-				("/mets-samples/src/main/resources/exemples/exemple6/mets.xml").replaceAll("/", fileSeparator);
+				("/src/main/resources/exemples/exemple6/mets.xml").replace("/", fileSeparator);
 		OutputStream os = new FileOutputStream(metsFile);
 		mets.save(os);
 
 		// Creem el ZIP amb el mets, documents i signatures
 		String zipFilePath = pathOutDir + "exemple6.zip";
-		String folderToZip = userDir + "/mets-samples/src/main/resources/exemples/exemple6";
+		String folderToZip = userDir + "/src/main/resources/exemples/exemple6";
 		MetsUtil.createZipPIT(zipFilePath, folderToZip);
 	}
 

@@ -79,7 +79,7 @@ public class MetsTest2 {
 		mets.validateXMLData(signatura, Utils.getDocumentSignaturaSchema());
 		
 		// creació de les estructures FileGrp dels binaris
-		String path = "exemples/exemple2/".replaceAll("/", File.separator);
+		String path = "exemples/exemple2/".replace("/", File.separator);
 		InputStream documentHashStream = ClassLoader.getSystemResourceAsStream(path + "documentHash.txt");
 		mets.createFileGrp("BIN_1", Base64.decode(Utils.getBytes(documentHashStream)), "BIN_1.0", "text/xml");
 		

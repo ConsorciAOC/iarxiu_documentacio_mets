@@ -46,7 +46,7 @@ public class MetsTest3 {
 		Document expedient_DMD1 = createExpedient_DMD1();
 	
 		// càrrega de disc de les metadades administratives de signatura
-		String path = "exemples/exemple3/".replaceAll("/", File.separator);
+		String path = "exemples/exemple3/".replace("/", File.separator);
 		InputStream amd1Stream = ClassLoader.getSystemResourceAsStream(path + "amd1.xml");
 		
 		// creació de la estructura de les metadades descriptives
