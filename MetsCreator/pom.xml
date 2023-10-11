@@ -20,8 +20,8 @@
 	</properties>
 
 	<dependencies>
+		<!-- iarxiu.libs -->
 		<dependency>
-			<!-- iarxiu.libs -->
 			<groupId>iarxiu.libs</groupId>
 			<artifactId>mets-schema</artifactId>
 			<version>2.20.7</version>
