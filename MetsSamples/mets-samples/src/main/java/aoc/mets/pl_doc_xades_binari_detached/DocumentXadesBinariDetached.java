@@ -2,7 +2,6 @@ package aoc.mets.pl_doc_xades_binari_detached;
 
 import aoc.mets.util.MetsUtil;
 import com.hp.iarxiu.metsgenerator.Mets;
-import com.hp.iarxiu.metsgenerator.exception.MetsException;
 import gov.loc.mets.DivType;
 
 import java.io.*;

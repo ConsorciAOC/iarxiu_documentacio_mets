@@ -33,7 +33,6 @@ public class ExpedientMultiPdf {
 			String pathOutDir = userDir + fileSeparator + "out" + fileSeparator + pathThisSample;
 			MetsUtil.createIfNotExistsDirectory(pathOutDir);
 
-			String fullPathThisSampleMd = fullPathThisSample + "md";
 			String dmdExpFullPath  = fullPathThisSample + "md" + fileSeparator + "dmdExpedient.xml";
 			String templateURN = "urn:iarxiu:2.0:templates:catcert:PL_expedient";
 
