@@ -10,7 +10,7 @@
 	<version>2.20.7</version>
 
 	<name>Mets Creator</name>
-	<description>Mets Creator, to include as part of MetsCreation (this last one intended for integrator developers)</description>
+	<description>Mets Creator, to include as part of MetsSamples (this last one intended for integrator developers)</description>
 
 	<properties>
 		<!-- Build properties -->

@@ -5,7 +5,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>iarxiu.extras</groupId>
+	<groupId>iarxiu.extras.mets-samples</groupId>
 	<artifactId>mets-samples</artifactId>
 	<version>2.20.7</version>
 
@@ -15,14 +15,14 @@
 
 	<parent>
 		<groupId>iarxiu.extras</groupId>
-		<artifactId>root</artifactId>
+		<artifactId>mets-samples</artifactId>
 		<version>2.20.7</version>
 	</parent>
 
 	<dependencies>
 		<!-- Internal dependencies -->
 		<dependency>
-			<groupId>iarxiu.extras</groupId>
+			<groupId>iarxiu.extras.mets-samples</groupId>
 			<artifactId>vocabularis</artifactId>
 			<version>2.20.7</version>
 		</dependency>
