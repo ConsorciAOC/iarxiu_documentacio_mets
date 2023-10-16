@@ -99,6 +99,4 @@ Los pasos para su utilización, tanto en Windows como en Linux, son:
 
 11. Ejecutar o debuggear cada clase java, método main.
 
-	Nota: tras cada ejecución se modifican los ficheros mets.xml y otros XML, y luego aparecen como cambiados para Git.
-
 	Nota: En vocabularies hay unos vocabularios de ejemplo, pero el desarrollador puede colocar allí los suyos propios.
