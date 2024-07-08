@@ -4,7 +4,7 @@
 	<voc:codi_classificacio>CodiClassificacio</voc:codi_classificacio>	
 	<voc:titol_serie_documental>TitolSerieDoc</voc:titol_serie_documental>
 	<voc:titol>Document</voc:titol>
-	<voc:data_creacio>2023-07-28T11:50:55</voc:data_creacio>
+	<voc:data_creacio>2023-07-28T11:55:41</voc:data_creacio>
 	<voc:nivell_descripcio>Descripcio</voc:nivell_descripcio>
 	<voc:suport>Document</voc:suport>
-</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="0a7e5259db19183133b167b3b188d10c725855c9" CHECKSUMTYPE="SHA-1" CREATED="2023-07-28T11:55:41.664+02:00" ID="BIN_1.0" MIMETYPE="application/pkcs7-signature"><mets:FLocat xlin:href="test_cades.p7b" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="test_cades.p7b"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>
+</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="0a7e5259db19183133b167b3b188d10c725855c9" CHECKSUMTYPE="SHA-1" CREATED="2024-07-08T11:04:52.505+02:00" ID="BIN_1.0" MIMETYPE="application/pkcs7-signature"><mets:FLocat xlin:href="test_cades.p7b" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="test_cades.p7b"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>
