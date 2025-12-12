@@ -41,6 +41,7 @@
       <xs:element name="expedient_principal" type="xs:string" minOccurs="0"/>
       <xs:element name="descripcio_agrupador" type="xs:string" minOccurs="0"/>
       <xs:element name="id_agrupador" type="xs:string" minOccurs="0"/>
+      <xs:element minOccurs="0" name="interessat" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
 </xs:schema>

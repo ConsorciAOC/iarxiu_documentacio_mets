@@ -3,8 +3,8 @@
 	<voc:codi_referencia>CodiRef_word</voc:codi_referencia>
 	<voc:codi_classificacio>CodiClassificacio_word</voc:codi_classificacio>	
 	<voc:titol_serie_documental>TitolSerieDoc_word</voc:titol_serie_documental>
-	<voc:titol>2023-08-02T14:18:37</voc:titol>
+	<voc:titol>2025-12-12T12:40:13</voc:titol>
 	<voc:data_creacio>2015-05-11T12:07:00</voc:data_creacio>
 	<voc:nivell_descripcio>Descripcio</voc:nivell_descripcio>
 	<voc:suport>Document</voc:suport>
-</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="41ca2c4187b177cbb6b1a10b7a6cabe6174e969e" CHECKSUMTYPE="SHA-1" CREATED="2023-08-02T14:18:55.409+02:00" ID="BIN_1.0" MIMETYPE="application/msword"><mets:FLocat xlin:href="doc.docx" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="doc.docx"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>
+</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="41ca2c4187b177cbb6b1a10b7a6cabe6174e969e" CHECKSUMTYPE="SHA-1" CREATED="2025-12-12T12:40:13.560+01:00" ID="BIN_1.0" MIMETYPE="application/msword"><mets:FLocat xlin:href="doc.docx" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="doc.docx"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>

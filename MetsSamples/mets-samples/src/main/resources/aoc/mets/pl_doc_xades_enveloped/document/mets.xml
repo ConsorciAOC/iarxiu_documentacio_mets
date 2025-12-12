@@ -3,8 +3,8 @@
 	<voc:codi_referencia>CodiRef</voc:codi_referencia>
 	<voc:codi_classificacio>CodiClassificacio</voc:codi_classificacio>	
 	<voc:titol_serie_documental>TitolSerieDoc</voc:titol_serie_documental>
-	<voc:titol>2016-06-15T08:45:47</voc:titol>
+	<voc:titol>2023-08-03T09:28:37</voc:titol>
 	<voc:data_creacio>2015-09-15T11:52:49</voc:data_creacio>
 	<voc:nivell_descripcio>Descripcio</voc:nivell_descripcio>
 	<voc:suport>Document</voc:suport>
-</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="c1a20e917af679e00bad1fcb811bff964ea4d31b" CHECKSUMTYPE="SHA-1" CREATED="2023-08-03T09:28:37.331+02:00" ID="BIN_1.0" MIMETYPE="text/xml"><mets:FLocat xlin:href="doc1_enveloped.xml" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="doc1_enveloped.xml"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>
+</voc:document></mets:xmlData></mets:mdWrap></mets:dmdSec><mets:fileSec><mets:fileGrp ID="BIN_1"><mets:file CHECKSUM="307cf2157eca1b86a84ba0ea2fced1c600bdf2df" CHECKSUMTYPE="SHA-1" CREATED="2025-12-12T12:41:05.302+01:00" ID="BIN_1.0" MIMETYPE="text/xml"><mets:FLocat xlin:href="doc1_enveloped.xml" LOCTYPE="URL" xmlns:xlin="http://www.w3.org/1999/xlink"/></mets:file></mets:fileGrp></mets:fileSec><mets:structMap><mets:div DMDID="DMD_1" LABEL="MD_document"><mets:div LABEL="doc1_enveloped.xml"><mets:fptr FILEID="BIN_1"/></mets:div></mets:div></mets:structMap></mets:mets>
