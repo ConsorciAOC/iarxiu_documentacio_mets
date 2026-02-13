@@ -7,7 +7,7 @@
 
 	<groupId>iarxiu.extras</groupId>
 	<artifactId>mets-creator</artifactId>
-	<version>2.23.0</version>
+	<version>4.5.0</version>
 
 	<name>Mets Creator</name>
 	<description>Mets Creator, to include as part of MetsSamples (this last one intended for integrator developers)</description>
@@ -24,12 +24,12 @@
 		<dependency>
 			<groupId>iarxiu.libs</groupId>
 			<artifactId>mets-schema</artifactId>
-			<version>2.23.0</version>
+			<version>4.5.0</version>
 		</dependency>
 		<dependency>
 			<groupId>iarxiu.libs</groupId>
 			<artifactId>xmlschema-validator</artifactId>
-			<version>2.23.0</version>
+			<version>4.5.0</version>
 		</dependency>
 		<!-- iarxiu.libs -->
 		<dependency>
