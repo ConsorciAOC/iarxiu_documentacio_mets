@@ -7,7 +7,7 @@
 
 	<groupId>iarxiu.extras</groupId>
 	<artifactId>mets-samples</artifactId>
-	<version>4.5.0</version>
+	<version>5.0.0</version>
 	<packaging>pom</packaging>
 
 	<properties>

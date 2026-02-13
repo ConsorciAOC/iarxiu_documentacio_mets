@@ -66,15 +66,15 @@ Los pasos para su utilización, tanto en Windows como en Linux, son:
 6. Desde dicha consola del sistema, se ejecutan los siguientes comandos, situándose antes en el directorio 
 	"MetsCreator/lib":
 
-	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=mets-schema-4.5.0.jar
-	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=xmlschema-validator-4.5.0.jar
+	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=mets-schema-5.0.0.jar
+	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=xmlschema-validator-5.0.0.jar
 
 7. Ejecutar "mvn clean install" situados en el directorio del POM de MetsCreator.
 
 8. Desde dicha consola del sistema, se ejecuta el siguiente comando, situándose antes en el directorio 
 	"MetsSamples/mets-samples/lib":
 
-	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=xlink-schema-4.5.0.jar
+	mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=xlink-schema-5.0.0.jar
 
 9. Ejecutar "mvn clean install" situados en el directorio del POM de MetsSamples.
 
