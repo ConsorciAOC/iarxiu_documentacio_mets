@@ -87,8 +87,6 @@
                   <xs:enumeration value="Convocatòria"/>
                   <xs:enumeration value="Currículum"/>
                   <xs:enumeration value="Cèdula d'habitabilitat"/>
-                  <xs:enumeration value="Cèdula d'habitabilitat"/>
-                  <xs:enumeration value="Cèdula hipotecària"/>
                   <xs:enumeration value="Cèdula hipotecària"/>
                   <xs:enumeration value="Declaració"/>
                   <xs:enumeration value="Declaració censal d'alta"/>
